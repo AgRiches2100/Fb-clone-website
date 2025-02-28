@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    font-size: 10px;
+
+}
+
+.full-page{
+    height: 100%;
+    width: 100%;
+}
+
+/* background part */
+
+.background-section {
+    width: 100%;
+    height: 75rem;
+    background-color: rgb(245, 246, 247);
+}
+
+
+/* image section */
+
+.logo{
+    width: 30rem;
+    display: block;
+    margin: auto;
+    min-width: 12rem;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+/* create account section */
+
+.account-section{
+     height: 59rem;
+     width: 43.2rem;
+     background-color: #fff;
+     display: block;
+     margin: auto;
+     box-shadow: 10px 10px 10px -7px #0000001a, -10px -10px 10px -7px #0000001a;
+     border-radius: 4px;
+
+}
+
+/* create account tagline */
+
+.tagline{
+    padding-top: 1.1rem;
+
+}
+
+.account{
+    text-align: center;
+    font-size: 2.3rem;
+    font: 600;
+}
+
+.oneline{
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    opacity: 0.8;
+}
+
+.tagline::after{
+    content: '';
+    height: 0.5px;
+    background-color: #000;
+    width: 42.3rem;
+    position: absolute;  
+    opacity: 0.8;
+    top: 18.5rem;
+
+    
+}
+
+/* form section */
+ 
+.form-section {
+    padding: 2.5rem 1.5rem;
+}
+
+/* name section */
+
+.name-section{
+    display: flex;
+  
+}
+
+/* first name */
+
+
+.f-name{
+
+    width: 19.5rem;
+    border: 1px solid #cbd0d4;
+    margin-right: 1.2rem;
+    padding: 1rem 0px;
+    border-radius: 4px;
+    
+}
+
+/* last name */
+
+.l-name{
+    width: 19.5rem;
+    border: 1px solid #cbd0d4;
+    padding: 1rem 0px;
+    border-radius: 4px;
+    
+}
+
+.f-name input[type="text"]  , .l-name input[type="text"]{
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+::placeholder{
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+}
+
+/* mobile number */
+
+.mobile-number{
+    border: 1px solid #cbd0d4;
+    width: 100%;
+    padding: 1rem 0px;
+    border-radius: 4px;
+    margin: 1rem 0px;
+}
+
+/* password */
+
+.password{
+    border: 1px solid #cbd0d4;
+    width: 100%;
+    padding: 1rem 0px;
+    border-radius: 4px;
+    margin: 1rem 0px;
+}
+
+.mobile-number input[type="text"] , .password input[type="password"]{
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+/* date of birth */
+
+.dob-section{
+    margin: 1.5rem 0px 1rem 0px;
+}
+
+.date-of-birth{
+    font-size: 1.2rem;
+    color: #5f6770;
+
+}
+
+.date-month-year{
+    margin: 1rem 0px;
+    display: flex;
+}
+
+option{
+    font-size: 1.5rem;
+}
+
+/* select date */
+
+#date{
+    width: 12.5rem;
+    height: 35px;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #cbd0d4;
+    margin-right: 12px;
+
+}
+
+#month{
+    width: 12.5rem;
+    height: 35px;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #cbd0d4;
+    margin-right: 12px; 
+}
+
+#year{
+    width: 12.5rem;
+    height: 35px;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #cbd0d4;
+}
+
+/* gender section */
+
+.gender-tagline{
+    font-size: 1.2rem;
+    color: #5f6770;
+    margin-left: 15px;
+}
+
+.gender-type{
+    display: flex;
+    margin: 1rem 0px;
+}
+
+label{
+    font-size: 1.5rem;
+    padding-right: 4rem;
+}
+
+#female, #male, #custom{
+    padding-right: 1rem;
+    height: 1.2rem;
+}
+
+.f-m{
+    border: 1px solid #cbd0d4;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-right: 12px;
+    margin-left: 15px;
+}
+
+.m-m{
+    border: 1px solid #cbd0d4;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-right: 12px;
+}
+
+.c-m{
+    border: 1px solid #cbd0d4;
+    padding: 1rem;
+    border-radius: 4px;
+    
+}
+
+
+.sign-up-button {
+    background-color: rgb(0, 164, 0);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 120px;
+    transition: opacity 0.17s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 45%;
+    font-size: large;
+    margin-top: 70px;
+}
+
+.sign-up-button:hover{
+    opacity: 0.5;
+}
+
+.sign-up-button:active{
+    opacity: 0.3;
+}
+
+.already-have-account-link{
+    font-size: medium;
+    color: rgb(24, 119, 242);
+    text-decoration-color: rgb(24, 119, 242);
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold ;
+}
+
+.f-b-link{
+    text-decoration: none;
+}
