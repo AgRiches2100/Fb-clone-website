@@ -297,3 +297,10 @@ label{
 .f-b-link{
     text-decoration: none;
 }
+
+@media (max-width: 600px) {
+  .full-page {
+     height: 468px;
+     width: 468px;
+  }
+}
